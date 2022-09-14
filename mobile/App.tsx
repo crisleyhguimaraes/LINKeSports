@@ -4,10 +4,6 @@ import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container} >
-      <Text>
-        Teste
-        </Text>
-
         < Button title='Botão' />
 
       <StatusBar style="auto" backgroundColor= '#919191'/>
