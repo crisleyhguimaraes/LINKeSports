@@ -1,11 +1,11 @@
-import { THEME } from './../../theme/index';
 import { StyleSheet } from "react-native";
+import { THEME } from './../../theme/index';
 export const styles = StyleSheet.create({
   container: {
-    marginTop: 24,
+    marginRight: 24,
   },
   cover:{
-    marginRight: 240,
+    width: 240,
     height: 320,
     justifyContent: "flex-end",
     borderRadius: 8,
